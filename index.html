@@ -10,7 +10,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link 
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
       
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="styles/apresentacao.css">
@@ -89,38 +94,8 @@
         <h2 class="carrossel__titulo">Nossos Serviços</h2>
 
         <!-- Slider main container -->
-        <div class="swiper">...
-        </div>
-
-        <!--promoção - melhor produto-->
-        <div class="card">
-
-              <div class="card_descricao">
-                  
-                <div class="descricao">
-                <h3 class="descricao_titulo">talvez você se interesse
-                    por...</h3>
-                    <h2 class="descricao_titulo">cabeleleiro da gabi</h2>
-                    <p class="descricao_texto">cabeleleiro da gabi,aqui pedomos mudar seu visua
-                        tem cortes,pinturas,progressivas...
-                    </p>
-               
-                </div>
-
-                <img src="./img/" alt="foto da promoção"
-
-
-              <div class="card_ botoes" 
-                   <ul class="botoes"
-                       <li class="botoes__item">< </li>
-                        <li class="botoes__item"></li>
-                    </ul>
-                    <a href="#" class="botoes__ancora">saiba mais</a>
-            </div>
-
+        <div class="swiper">
             <!-- Additional required wrapper -->
-            
-
             <div class="swiper-wrapper">
                 <!-- Slides -->
                 <div class="swiper-slide"><img src="./img/abstract-95721_1280.jpg" alt="função seno"></div>
@@ -131,26 +106,58 @@
                 <div class="swiper-slide"><img src="./img/ecommerce-3562191_1920.jpg" alt="dispositivos móveis"></div>
                 <div class="swiper-slide"><img src="./img/halloween-background-5615520_1920.jpg" alt="halloween"></div>
                 
+                
+                
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                
+            </div>
+           
+        </div>
+        
+        <!-- Promoção - Melhor Produto -->
+        <div class="card">
+
+            <div class="card__descricao">
+
+                <div class="descricao">
+                    <h3 class="descricao__titulo">Talvez você também se interesse por... </h3>
+                    <h2 class="descricao__titulo-produto">Aulas Particulares</h2>
+                    <p class="descricao__texto"> cabeleleiro da gabi</p>
+                </div>
+                
+                <img src="./img/Online learning-amico.svg" alt="Foto da promoção" class="desricao__imagem">
+
             </div>
 
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
-  
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-  
-            <!-- If we need scrollbar -->
-            <div class="swiper-scrollbar"></div>
+            <div class="card__botoes">
+                <ul class="botoes">
+                    <li class="botoes__item">
+                        <img src="./img/favoritos.svg" alt="Favoritar produto">
+                    </li>
+                    <li class="botoes__item"> 
+                        <img src="./img/compras.svg" alt="Adicionar no carrinho de compras">
+                    </li>
+                </ul>
+
+                <a href="#" class="botoes__ancora">Saiba mais</a>
+
+            </div>
         </div>
+
+    
+    
+    
+    
     </section>
 
 
     <section class="estudante">
         <h2 class="estudante-titulo">Quem sou</h2>
         <div class="estudante-div">
-            <img src="img/gerson.jpg" alt="foto do gerson" class="estudante-imagem">
-            <h3 class="estudante-nome"> Gerson Cesar Grobe de Miranda </h3>
+            <img src="img/gerson.jpg" alt="fotos da gabi" class="estudante-imagem">
+            <h3 class="estudante-nome"> gabrielle vieira de moraes </h3>
             <a href="https://github.com/cesargrobe/segundo-repositorio2E.git"> <img src="img/github.svg" alt="icone do github" class="estudante-icone"> </a>
             <a href="https://instagram.com/cesargrobe"> <img src="img/instagram.svg" alt="icone do instagram" class="estudante-icone"> </a>
             <a href="https://wa.me/5541999589774?text=Sou+o+Prof.+Gerson.+Como+posso+ajudar%3F"> <img src="img/whatsapp.svg" alt="icone do whatsapp" class="estudante-icone"> </a>      
@@ -162,6 +169,17 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 1,
+
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
 
 </body>
 

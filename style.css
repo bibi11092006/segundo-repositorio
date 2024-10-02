@@ -10,7 +10,7 @@
     --cor-escrita: #F9F871;
     --cor-botao: #00C9A7;
     --cor-preto: #000000;
-    --cor-branco: #ffffff;
+    --cor-branco: ffff;#ff
 }
 @import url(/styles/apresentacao.css);
 @import url(/styles/header.css);
