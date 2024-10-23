@@ -1,5 +1,7 @@
 <@import url(/styles/apresentacao.css);
 @import url(/styles/header.css);
+@import url(/styles/apresentacao.css);
+@import url(/styles/header.css);
 
 :root {
     --cor-principal: #845EC2;
@@ -12,7 +14,6 @@
     --cor-preto: #000000;
     --cor-branco: ffff;#ff
 }
-@import url(/styles/apresentacao.css);
-@import url(/styles/header.css);
+
 
 
