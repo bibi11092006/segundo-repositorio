@@ -10,5 +10,6 @@ criaCartao(
 
 criaCartao(
    'valores',
-   'saiba qual é a noss'
+   'saiba qual são os valores de nossa empresa!'
+   'Nosos valore são...'
 )
