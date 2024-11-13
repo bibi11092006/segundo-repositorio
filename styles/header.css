@@ -1,10 +1,19 @@
+main {
+    margin-top: 60px;
+}
+
+
 .cabecalho {
     background-color: var(--cor-principal);
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: relative;
-}
+    top: 0;
+    width: 100%;
+    color:var(--preto) ;
+    z-index: 1000;
+} 
 
 .container {
     display: flex;
@@ -117,6 +126,10 @@
 
     .opcoes__botao{
         display:none;
+    }
+
+    #container__left{
+        margin-right: 50px;
     }
 
 }
