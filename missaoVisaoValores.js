@@ -1,15 +1,17 @@
-criaCartao(
-   'missão',
-   ' saiba qual é a missão de nossa empresa!'
+criaCartao (
+   'Missão',
+   'Saiba qual é a missão de nossa empresa!',
+   'Nossa missão é ...'
 )
 
-criaCartao(
-   'visão',
-    'saiba qual é a visão da nossa empresa!'
+criaCartao (
+   'Visão',
+   'Saiba qual é a visão de nossa empresa!',
+   'Nossa visão é ...'
 )
 
-criaCartao(
-   'valores',
-   'saiba qual são os valores de nossa empresa!'
-   'Nosos valore são...'
+criaCartao (
+   'Valores',
+   'Saiba quais são os valores de nossa empresa!',
+   'Nossos valores são...'
 )
