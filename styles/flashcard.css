@@ -15,7 +15,7 @@
 }
 
 .cartao__conteudo {
-    background-color: var(--cor-branco);
+    background-color: var(--cor-botao);
     text-align: center;
     height: 100%;
     transform-style: preserve-3d;
@@ -54,7 +54,7 @@
 }
 
 .cartao__conteudo__resposta p {
-    color: var(--cor-secundaria);
+    color: var(--cor-preto);
     font-weight: 700;
 }
 
