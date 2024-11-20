@@ -41,7 +41,7 @@ main {
 
 .cabecalho-lista{
     display: none;
-    background-color: var(--cor-fundo);
+    background-color: var(--cor-#1b695c);
     position: absolute;
     top: 100%;
     width: 50vw;
